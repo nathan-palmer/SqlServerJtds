@@ -1,0 +1,10 @@
+Package: SqlServerJtds
+Title: Provides connectivity to Microsoft SQL Server from an R session using the jTDS driver and RJDBC
+Version: 0.0.0.9000
+Authors@R: person("Nathan", "Palmer", , "nathan.palmer@gmail.com", role = c("aut", "cre"))
+Author: Nathan Palmer
+Maintainer: Nathan Palmer <nathan.palmer@gmail.com>
+Description: This package uses the jTDS driver to connect to SQL Server via RJDBC.
+Depends: R (>= 3.1.2), rJava, RJDBC, DBI
+License: What license is it under?
+LazyData: true
